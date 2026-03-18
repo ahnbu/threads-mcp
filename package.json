@@ -1,12 +1,12 @@
 {
-  "name": "threads-mcp-server",
+  "name": "threads-mcp-my",
   "version": "5.1.0",
   "description": "Professional Threads MCP Server - Fixed API issues, enhanced setup validation, and enterprise features",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
   "bin": {
-    "threads-mcp": "./dist/index.js"
+    "threads-mcp-my": "./dist/index.js"
   },
   "scripts": {
     "build": "tsc",
@@ -56,7 +56,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/baguskto/threads-mcp.git"
+    "url": "https://github.com/ahnbu/threads-mcp.git"
   },
   "bugs": {
     "url": "https://github.com/baguskto/threads-mcp/issues"

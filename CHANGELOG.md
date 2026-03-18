@@ -5,6 +5,14 @@ All notable changes to the Threads MCP Server project will be documented in this
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [5.1.1-fork] - 2026-03-18
+
+### Fork 커스터마이징 (ahnbu/threads-mcp)
+
+- **Removed**: `search_posts` 도구 — 비공식 엔드포인트로 권한 에러 발생, Threads API 공식 스코프에 미포함
+- **Fixed**: `schedule_post` 중복 등록 해소 — 기본 버전(dead code) 제거, 확장 버전(automation 지원)만 유지
+- **Changed**: 패키지명 `threads-mcp-my`, bin `threads-mcp-my`, repo URL `ahnbu/threads-mcp`
+
 ## [5.1.0] - 2024-08-25
 
 ### 🎠 CAROUSEL & SCHEDULING FIXES - Full 20-Image Support
