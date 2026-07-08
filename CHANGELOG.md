@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Removed**: `search_posts` 도구 — 비공식 엔드포인트로 권한 에러 발생, Threads API 공식 스코프에 미포함
 - **Fixed**: `schedule_post` 중복 등록 해소 — 기본 버전(dead code) 제거, 확장 버전(automation 지원)만 유지
 - **Changed**: 패키지명 `threads-mcp-my`, bin `threads-mcp-my`, repo URL `ahnbu/threads-mcp`
+- **Changed**: 로컬 AI 작업 산출물과 임시 파일이 추적되지 않도록 gitignore 규칙 보강
 
 ## [5.1.0] - 2024-08-25
 

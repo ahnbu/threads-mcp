@@ -53,3 +53,13 @@ package-lock.json
 *.pid
 *.seed
 *.pid.lock
+.playwright-cli/
+.bkit/
+.pdca-status
+.pdca-status.json
+.bkit-memory
+.bkit-memory.json
+.pdca-snapshots
+.current-session-id
+temp/
+.temp/
