@@ -63,3 +63,4 @@ package-lock.json
 .current-session-id
 temp/
 .temp/
+.codegraph/

@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Fixed**: `schedule_post` 중복 등록 해소 — 기본 버전(dead code) 제거, 확장 버전(automation 지원)만 유지
 - **Changed**: 패키지명 `threads-mcp-my`, bin `threads-mcp-my`, repo URL `ahnbu/threads-mcp`
 - **Changed**: 로컬 AI 작업 산출물과 임시 파일이 추적되지 않도록 gitignore 규칙 보강
+- **Changed**: CodeGraph 로컬 캐시가 작업트리에 노출되지 않도록 `.codegraph/`를 gitignore에 추가
 
 ## [5.1.0] - 2024-08-25
 
