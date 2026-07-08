@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Changed**: 패키지명 `threads-mcp-my`, bin `threads-mcp-my`, repo URL `ahnbu/threads-mcp`
 - **Changed**: 로컬 AI 작업 산출물과 임시 파일이 추적되지 않도록 gitignore 규칙 보강
 - **Changed**: CodeGraph 로컬 캐시가 작업트리에 노출되지 않도록 `.codegraph/`를 gitignore에 추가
+- **Changed**: pnpm lockfile을 추가해 패키지 설치 기준을 고정
 
 ## [5.1.0] - 2024-08-25
 
